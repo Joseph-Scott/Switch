@@ -64,9 +64,9 @@ public class Main {
         }
 
 
-        String month = "january";
-	    switch(month) {
-            case "January":
+        String month = "JANUARY";
+	    switch(month.toLowerCase()) {
+            case "january":
                 System.out.println("Jan");
                 break;
             case "June":
