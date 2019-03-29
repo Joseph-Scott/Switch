@@ -41,5 +41,30 @@ public class Main {
         // A, B, C, D, or E
         // display a message if any of these are found and then break
         // Add a default which displays a message saying not found
+
+        char charVariable = 'G';
+
+	    switch(charVariable) {
+
+            case 'A':
+                System.out.println("A was found");
+                break;
+
+            case 'B':
+                System.out.println("B was found");
+                break;
+
+            case 'C': case 'D': case 'E':
+                System.out.println(charVariable + " was found");
+                break;
+
+            default:
+                System.out.println("Could not find A, B, C, D, or E");
+                break;
+        }
+
+
+
+
     }
 }
